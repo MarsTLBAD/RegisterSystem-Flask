@@ -1,6 +1,7 @@
 from models import *
 
 import json
+
 from datetime import datetime
 from flask import Flask, render_template, request
 
@@ -18,8 +19,10 @@ def add_record():
     if request.method != 'POST':
         return json.dumps({"result": 0})
     data = json.loads(request.get_data())
+    print(data)
     # 转换日期格式为python格式
     data['date'] = datetime.strptime(data['date'], "%Y-%m-%d").date()
+
     # 查询是否已经提交
     if find_value(data['id']):
         return json.dumps({"result": -1})
