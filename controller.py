@@ -8,13 +8,6 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 
-@app.route('/', methods=['POST', 'GET'])
-def hello_world():
-    record = get_all_record()
-    return render_template('index.html', record=record)
-
-
-@app.route('/add', methods=['POST'])
 def add_record():
     if request.method != 'POST':
         return json.dumps({"result": 0})
@@ -30,12 +23,11 @@ def add_record():
     return json.dumps({"result": 1})
 
 
-@app.route('/del', methods=['POST'])
 def del_record():
     if request.method != 'POST':
         return json.dumps({"result": 0})
     data = json.loads(request.get_data())
-    id = data.values()
+    id = data['id']
     del_value(id)
     if (find_value(id)):
         return json.dumps({"result": -1})

@@ -1,4 +1,4 @@
-from controller import *
+from view import *
 
 
 if __name__ == '__main__':

@@ -20,18 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24e8eb7a-f235-4535-a7b8-996bb2baf194" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Temperature-recording-system.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Form.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Temperature-recording-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Temperature-recording-system.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.db" beforeDir="false" afterPath="$PROJECT_DIR$/demo.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,10 +34,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1f5k0Zuv9agGvtJOUyw9XxhMG6P" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,38 +61,16 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Flask server.Flask (app.py)">
-    <configuration name="models" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Temperature-recording-system" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="Flask (app.py)" type="Python.FlaskServer" nameIsGenerated="true">
       <module name="Temperature-recording-system" />
-      <option name="target" value="D:\Enshrine\Git\Temperature-recording-system\app.py" />
+      <option name="target" value="D:\Code\Python\Tem\app.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="D:\Enshrine\Git\Temperature-recording-system\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -109,10 +92,6 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Flask server.Flask (app.py)" />
-      <item itemvalue="Python.models" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -125,6 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595515118686</updated>
       <workItem from="1595515122939" duration="2073000" />
+      <workItem from="1596032514140" duration="1312000" />
     </task>
     <servers />
   </component>
@@ -141,32 +121,37 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595515606602">
+    <state x="471" y="21" key="#Flask_(app.py)" timestamp="1596032582691">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1595515606602" />
-    <state x="548" y="172" key="FileChooserDialogImpl" timestamp="1595515145813">
+    <state x="471" y="21" key="#Flask_(app.py)/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596032582691" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596032632154">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="548" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1595515145813" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1595518784664">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596032632154" />
+    <state x="548" y="172" key="FileChooserDialogImpl" timestamp="1596032630034">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1595518784664" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1595518784664">
+    <state x="548" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596032630034" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596033822170">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1595518784664" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1595518784664">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033822170" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596033822169">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1595518784664" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1595518784664">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033822169" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596033822169">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1595518784664" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033822169" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596033822170">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033822170" />
     <state x="270" y="62" key="SettingsEditor" timestamp="1595515621461">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -174,6 +159,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Temperature_recording_system$Flask.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1595519023635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tem$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1596033822161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Temperature_recording_system$models.coverage" NAME="models Coverage Results" MODIFIED="1595515242872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
