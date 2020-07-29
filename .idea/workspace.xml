@@ -16,18 +16,22 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e8eb7a-f235-4535-a7b8-996bb2baf194" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Temperature-recording-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Temperature-recording-system.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="24e8eb7a-f235-4535-a7b8-996bb2baf194" name="默认更改列表" comment="1.修改原本结构为MVC模式&#10;2.修复无法删除数据的BUG">
+      <change afterPath="$PROJECT_DIR$/static/js/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.db" beforeDir="false" afterPath="$PROJECT_DIR$/demo.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +42,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -53,6 +58,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -104,8 +110,17 @@
       <option name="presentableId" value="Default" />
       <updated>1595515118686</updated>
       <workItem from="1595515122939" duration="2073000" />
-      <workItem from="1596032514140" duration="1312000" />
+      <workItem from="1596032514140" duration="2693000" />
+      <workItem from="1596035370498" duration="6089000" />
     </task>
+    <task id="LOCAL-00001" summary="1.修改原本结构为MVC模式&#10;2.修复无法删除数据的BUG">
+      <created>1596033913967</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596033913967</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,50 +131,94 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.修改原本结构为MVC模式&#10;2.修复无法删除数据的BUG" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.修改原本结构为MVC模式&#10;2.修复无法删除数据的BUG" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="471" y="21" key="#Flask_(app.py)" timestamp="1596032582691">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="471" y="21" key="#Flask_(app.py)/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596032582691" />
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596032632154">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="2072" y="-450" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596039663160">
+      <screen x="1920" y="-592" width="1050" height="1650" />
     </state>
     <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596032632154" />
+    <state x="2072" y="-450" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/1920.-592.1050.1650@1920.-592.1050.1650" timestamp="1596039663160" />
     <state x="548" y="172" key="FileChooserDialogImpl" timestamp="1596032630034">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="548" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596032630034" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596033822170">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1007" height="479" key="GridCell.Tab.0.bottom" timestamp="1596041342046">
+      <screen x="1920" y="-592" width="1050" height="1650" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033822170" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596033822169">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033872270" />
+    <state width="1007" height="479" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.-592.1050.1650@1920.-592.1050.1650" timestamp="1596041342046" />
+    <state width="1007" height="479" key="GridCell.Tab.0.center" timestamp="1596041342045">
+      <screen x="1920" y="-592" width="1050" height="1650" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033822169" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596033822169">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033872270" />
+    <state width="1007" height="479" key="GridCell.Tab.0.center/0.0.1536.834/1920.-592.1050.1650@1920.-592.1050.1650" timestamp="1596041342045" />
+    <state width="1007" height="479" key="GridCell.Tab.0.left" timestamp="1596041342045">
+      <screen x="1920" y="-592" width="1050" height="1650" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033822169" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596033822170">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033872270" />
+    <state width="1007" height="479" key="GridCell.Tab.0.left/0.0.1536.834/1920.-592.1050.1650@1920.-592.1050.1650" timestamp="1596041342045" />
+    <state width="1007" height="479" key="GridCell.Tab.0.right" timestamp="1596041342045">
+      <screen x="1920" y="-592" width="1050" height="1650" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033822170" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033872270" />
+    <state width="1007" height="479" key="GridCell.Tab.0.right/0.0.1536.834/1920.-592.1050.1650@1920.-592.1050.1650" timestamp="1596041342045" />
     <state x="270" y="62" key="SettingsEditor" timestamp="1595515621461">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="62" key="SettingsEditor/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1595515621461" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1596034613371">
+      <screen x="1920" y="-592" width="1050" height="1650" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.834/1920.-592.1050.1650@1920.-592.1050.1650" timestamp="1596034613371" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1596033915999">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033915999" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Temperature_recording_system$Flask.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1595519023635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Tem$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1596033822161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tem$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1596041342037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Temperature_recording_system$models.coverage" NAME="models Coverage Results" MODIFIED="1595515242872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
