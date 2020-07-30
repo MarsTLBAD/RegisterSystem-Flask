@@ -1,13 +1,14 @@
+from datetime import datetime
+
 from models import *
 
 
 def add_record(data):
-    print(data)
-
+    # 转换日期格式为python格式
+    data['date'] = datetime.strptime(data['date'], "%Y-%m-%d").date()
     # 查询是否已经提交
     if find_value(data['id']):
         return -1
-
     add_value(data)
     return 1
 

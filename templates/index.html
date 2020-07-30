@@ -78,15 +78,12 @@
             <td>{{ i.id }}</td>
             <td>{{ i.name }}</td>
             {% if i.temperature is number %}
-                {% if i.temperature > 37.5 %}
-                    <td class="danger">{{ i.temperature }}</td>
-                {% else %}
-                    <td class="safe">{{ i.temperature }}</td>
-                {% endif %}
+                <td class={{ "danger" if i.temperature > 37.5 else "safe" }}>
+                    {{ i.temperature }}
+                </td>
             {% else %}
                 <td>--</td>
             {% endif %}
-
             <td>{{ i.date }}</td>
             <td>
                 <button type="button" class="btn btn-danger" onclick=delRecord("{{ i.id }}")>删除</button>

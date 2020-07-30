@@ -4,11 +4,12 @@ function sendAjax(param, url, callback) {
         ache: false,
         type: 'POST',
         url: url,
+        //JSON对象转化JSON字符串
         data: JSON.stringify(param),
-        dataType: "text",
+        //服务器返回的数据类型
+        dataType: "json",
         success: function (data) {
-            var value = $.parseJSON(data).result
-            callback(value)
+            callback(data.result)
         },
         error: function (data) {
             //错误处理
@@ -90,13 +91,13 @@ function delRecord(id) {
             if (isConfirm) {
                 var data = {'id': id}
                 sendAjax(data, '/del', delCallback)
-                return
+            } else {
+                swal({
+                    title: "已取消",
+                    text: "您取消了删除操作！",
+                    type: "warning"
+                })
             }
-            swal({
-                title: "已取消",
-                text: "您取消了删除操作！",
-                type: "warning"
-            })
         }
     )
 }

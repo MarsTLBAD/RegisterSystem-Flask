@@ -25,11 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e8eb7a-f235-4535-a7b8-996bb2baf194" name="默认更改列表" comment="1.修改原本结构为MVC模式&#10;2.修复无法删除数据的BUG">
-      <change afterPath="$PROJECT_DIR$/static/js/api.js" afterDir="false" />
+    <list default="true" id="24e8eb7a-f235-4535-a7b8-996bb2baf194" name="默认更改列表" comment="1.前端增加了体温格式验证&#10;2.修复数值显示异常的BUG&#10;3.将所有引用文件均下载到了本地">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.db" beforeDir="false" afterPath="$PROJECT_DIR$/demo.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view.py" afterDir="false" />
     </list>
@@ -111,7 +111,8 @@
       <updated>1595515118686</updated>
       <workItem from="1595515122939" duration="2073000" />
       <workItem from="1596032514140" duration="2693000" />
-      <workItem from="1596035370498" duration="6089000" />
+      <workItem from="1596035370498" duration="6263000" />
+      <workItem from="1596083542627" duration="6651000" />
     </task>
     <task id="LOCAL-00001" summary="1.修改原本结构为MVC模式&#10;2.修复无法删除数据的BUG">
       <created>1596033913967</created>
@@ -120,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596033913967</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.前端增加了体温格式验证&#10;2.修复数值显示异常的BUG&#10;3.将所有引用文件均下载到了本地">
+      <created>1596041760395</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596041760395</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +175,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.修改原本结构为MVC模式&#10;2.修复无法删除数据的BUG" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.修改原本结构为MVC模式&#10;2.修复无法删除数据的BUG" />
+    <MESSAGE value="1.前端增加了体温格式验证&#10;2.修复数值显示异常的BUG&#10;3.将所有引用文件均下载到了本地" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.前端增加了体温格式验证&#10;2.修复数值显示异常的BUG&#10;3.将所有引用文件均下载到了本地" />
   </component>
   <component name="WindowStateProjectService">
     <state x="471" y="21" key="#Flask_(app.py)" timestamp="1596032582691">
@@ -183,26 +192,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="548" y="172" key="FileChooserDialogImpl/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596032630034" />
-    <state width="1007" height="479" key="GridCell.Tab.0.bottom" timestamp="1596041342046">
+    <state width="1007" height="478" key="GridCell.Tab.0.bottom" timestamp="1596100687356">
       <screen x="1920" y="-592" width="1050" height="1650" />
     </state>
     <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033872270" />
-    <state width="1007" height="479" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.-592.1050.1650@1920.-592.1050.1650" timestamp="1596041342046" />
-    <state width="1007" height="479" key="GridCell.Tab.0.center" timestamp="1596041342045">
+    <state width="1007" height="478" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.-592.1050.1650@1920.-592.1050.1650" timestamp="1596100687356" />
+    <state width="1007" height="478" key="GridCell.Tab.0.center" timestamp="1596100687356">
       <screen x="1920" y="-592" width="1050" height="1650" />
     </state>
     <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033872270" />
-    <state width="1007" height="479" key="GridCell.Tab.0.center/0.0.1536.834/1920.-592.1050.1650@1920.-592.1050.1650" timestamp="1596041342045" />
-    <state width="1007" height="479" key="GridCell.Tab.0.left" timestamp="1596041342045">
+    <state width="1007" height="478" key="GridCell.Tab.0.center/0.0.1536.834/1920.-592.1050.1650@1920.-592.1050.1650" timestamp="1596100687356" />
+    <state width="1007" height="478" key="GridCell.Tab.0.left" timestamp="1596100687356">
       <screen x="1920" y="-592" width="1050" height="1650" />
     </state>
     <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033872270" />
-    <state width="1007" height="479" key="GridCell.Tab.0.left/0.0.1536.834/1920.-592.1050.1650@1920.-592.1050.1650" timestamp="1596041342045" />
-    <state width="1007" height="479" key="GridCell.Tab.0.right" timestamp="1596041342045">
+    <state width="1007" height="478" key="GridCell.Tab.0.left/0.0.1536.834/1920.-592.1050.1650@1920.-592.1050.1650" timestamp="1596100687356" />
+    <state width="1007" height="478" key="GridCell.Tab.0.right" timestamp="1596100687356">
       <screen x="1920" y="-592" width="1050" height="1650" />
     </state>
     <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033872270" />
-    <state width="1007" height="479" key="GridCell.Tab.0.right/0.0.1536.834/1920.-592.1050.1650@1920.-592.1050.1650" timestamp="1596041342045" />
+    <state width="1007" height="478" key="GridCell.Tab.0.right/0.0.1536.834/1920.-592.1050.1650@1920.-592.1050.1650" timestamp="1596100687356" />
     <state x="270" y="62" key="SettingsEditor" timestamp="1595515621461">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -211,14 +220,15 @@
       <screen x="1920" y="-592" width="1050" height="1650" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.834/1920.-592.1050.1650@1920.-592.1050.1650" timestamp="1596034613371" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1596033915999">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="2154" y="-295" key="Vcs.Push.Dialog.v2" timestamp="1596041763037">
+      <screen x="1920" y="-592" width="1050" height="1650" />
     </state>
     <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.-592.1050.1650@0.0.1536.834" timestamp="1596033915999" />
+    <state x="2154" y="-295" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.-592.1050.1650@1920.-592.1050.1650" timestamp="1596041763037" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Temperature_recording_system$Flask.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1595519023635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Tem$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1596041342037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Tem$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1596100687356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Temperature_recording_system$models.coverage" NAME="models Coverage Results" MODIFIED="1595515242872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
