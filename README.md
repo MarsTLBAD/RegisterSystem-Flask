@@ -1,3 +1,4 @@
-# Temperature-recording-system
+# RegisterSystem-Flask
 
-体温登记小系统
+
+体温登记小系统 -- 基于Flask开发
