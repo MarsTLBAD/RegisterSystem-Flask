@@ -14,7 +14,7 @@ def index():
 
 @app.route('/add', methods=['POST'])
 def add():
-    data = json.loads(request.get_data())
+    data = request.json
 
     res = controller.add_record(data)
     return json.dumps({"result": res})
@@ -22,6 +22,6 @@ def add():
 
 @app.route('/del', methods=['POST'])
 def delete():
-    data = json.loads(request.get_data())
+    data = request.json
     res = controller.del_record(data)
     return json.dumps({"result": res})
